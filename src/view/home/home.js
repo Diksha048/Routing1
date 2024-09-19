@@ -1,10 +1,14 @@
 import React from 'react'
 import Navbar from './../../Navbar/navbar'
+import HomeImg from './House.png';
 
 function home() {
   return (
     <div>
-      <h1> Home </h1>
+      <Navbar/>
+      <h1 className='h1'> Home </h1>
+  
+      <img src={HomeImg} className='common-img'/>
     </div>
   )
 }

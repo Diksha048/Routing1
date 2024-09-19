@@ -1,10 +1,14 @@
 import React from 'react'
-import Navbar from '../../Navbar/navbar';
+import Navbar from './../../Navbar/navbar'
+import OrderImg from './Order.jpg';
 
 function order() {
   return (
     <div>
-      <h1>Order</h1>
+      <Navbar/>
+      <h1 className='h1'>Order</h1>
+
+      <img src={OrderImg} className='common-img'/>
     </div>
   )
 }
